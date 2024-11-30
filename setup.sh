@@ -35,10 +35,6 @@ cd "$APP_DIR"
 echo "Downloading app.js..."
 curl -O https://raw.githubusercontent.com/wayangkulit95/officeserver/main/app.js
 
-# Install project dependencies
-echo "Installing project dependencies..."
-npm install
-
 # Give proper permissions to the uploaded files (if using an 'uploads' folder)
 # This ensures the Node.js process has permission to read/write files.
 echo "Setting permissions for uploads directory..."
