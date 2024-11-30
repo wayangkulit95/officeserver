@@ -1,0 +1,10 @@
+How to Run:
+Install Dependencies:
+bash
+Copy code
+npm install express multer cors fs path
+Run the Server:
+bash
+Copy code
+node app.js
+Access the Panel: Open your browser and visit http://localhost:3000. You should see the file management interface with upload, edit, delete, and preview functionalities.
