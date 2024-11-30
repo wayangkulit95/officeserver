@@ -26,13 +26,14 @@ npm -v
 echo "Installing Git..."
 sudo apt-get install -y git
 
-# Clone your project repository (update with your Git repository URL)
-# If you already have the code locally, you can skip this part.
-echo "Cloning the project repository..."
-git clone https://github.com/ywatangkulit95/officeserver.git /var/www/file-manager
+# Navigate to your app's directory
+APP_DIR="/root/myapp"  # Change to your desired application directory
+mkdir -p "$APP_DIR"           # Create the app directory if it doesn't exist
+cd "$APP_DIR"
 
-# Navigate into the project directory
-cd /var/www/file-manager
+# Download your script
+echo "Downloading app.js..."
+curl -O https://raw.githubusercontent.com/wayangkulit95/officeserver/main/app.js
 
 # Install project dependencies
 echo "Installing project dependencies..."
