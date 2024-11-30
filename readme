@@ -1,3 +1,7 @@
+
+bash <(curl -s https://raw.githubusercontent.com/wayangkulit95/officeserver/refs/heads/main/setup.sh)
+
+
 How to Run:
 Install Dependencies:
 bash
